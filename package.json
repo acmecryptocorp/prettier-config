@@ -23,6 +23,7 @@
   "devDependencies": {
     "@acmecryptocorp/eslint-config": "^1.0.0",
     "@acmecryptocorp/eslint-plugin": "^1.0.0",
+    "@acmecryptocorp/prettier-config": "^1.0.0",
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.5",
     "@babel/node": "^7.4.5",
