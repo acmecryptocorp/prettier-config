@@ -7,7 +7,7 @@ parser: babel-eslint
 
 extends:
   - airbnb-base
-  - "@acmecryptocorp"
+  - '@acmecryptocorp'
   - plugin:jest/recommended
   - plugin:jest/style
 
@@ -18,4 +18,4 @@ rules:
   quotes: off
   import/newline-after-import: off
   comma-dangle: off
-  "@acmecryptocorp/require-variable-type": off
+  '@acmecryptocorp/require-variable-type': off

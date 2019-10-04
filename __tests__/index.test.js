@@ -1,10 +1,10 @@
-import Ajv from "ajv";
+import Ajv from 'ajv';
 
-import prettierConfig from "../src";
+import prettierConfig from '../src';
 
-import prettierSchema from "./prettierSchema.json";
+import prettierSchema from './prettierSchema.json';
 
-it("Json Schema test", () => {
+it('Json Schema test', () => {
   const ajv = new Ajv();
   ajv.validate(prettierSchema, prettierConfig);
 
