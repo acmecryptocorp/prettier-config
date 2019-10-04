@@ -1,0 +1,57 @@
+{
+  "name": "@acme/prettier-config",
+  "version": "1.0.0",
+  "description": "Acme Crypto Corp's extensible config for Prettier",
+  "main": "src/index.js",
+  "files": [
+    "src/{index.js,prettierrc.json}"
+  ],
+  "scripts": {
+    "test": "jest",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acmecryptocorp/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acmecryptocorp/prettier-config/issues"
+  },
+  "homepage": "https://github.com/acmecryptocorp/prettier-config#readme",
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@acmecryptocorp/eslint-config": "^1.0.0",
+    "@acmecryptocorp/eslint-plugin": "^1.0.0",
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/gitlab": "^3.1.2",
+    "ajv": "^6.10.2",
+    "babel-eslint": "^10.0.1",
+    "commitizen": "^4.0.3",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-eslint-comments": "^3.1.1",
+    "eslint-plugin-filenames": "^1.3.2",
+    "eslint-plugin-flowtype": "^4.2.0",
+    "eslint-plugin-import": "^2.17.1",
+    "eslint-plugin-jest": "^22.15.1",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-optimize-regex": "^1.1.6",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-sort-class-members": "^1.4.0",
+    "eslint-plugin-unicorn": "^10.0.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "semantic-release": "^15.13.21"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

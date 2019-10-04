@@ -1,0 +1,21 @@
+---
+env:
+  node: true
+  jest/globals: true
+
+parser: babel-eslint
+
+extends:
+  - airbnb-base
+  - "@acmecryptocorp"
+  - plugin:jest/recommended
+  - plugin:jest/style
+
+plugins:
+  - jest
+
+rules:
+  quotes: off
+  import/newline-after-import: off
+  comma-dangle: off
+  "@acmecryptocorp/require-variable-type": off
