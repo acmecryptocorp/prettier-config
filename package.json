@@ -1,6 +1,6 @@
 {
   "name": "@acmecryptocorp/prettier-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Acme Crypto Corp's extensible config for Prettier",
   "main": "src/index.js",
   "files": [
