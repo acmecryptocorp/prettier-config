@@ -28,7 +28,7 @@ or reference it in your package.json:
 
 ```json
 {
-  "prettier": "@company/prettier-config"
+  "prettier": "@acmecryptocorp/prettier-config"
 }
 ```
 
