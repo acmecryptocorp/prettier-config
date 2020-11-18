@@ -48,7 +48,7 @@
     "eslint-plugin-unicorn": "^10.0.0",
     "jest": "^24.8.0",
     "prettier": "^1.18.2",
-    "semantic-release": "^15.13.21"
+    "semantic-release": "^17.2.3"
   },
   "config": {
     "commitizen": {
